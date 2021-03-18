@@ -613,7 +613,7 @@ footer ul li a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: flex-start;
     position: relative;
     top: 8rem;
@@ -681,7 +681,7 @@ footer ul li a {
 }
 @media screen and (max-width: 396px) {
   .scroll {
-    padding-top: 50rem;
+    padding-top: 54rem;
   }
 
   .img {
