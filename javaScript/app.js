@@ -31,13 +31,20 @@ var swiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    640: {
-      slidesPerView: 2,
+    100:{
+      slidesPerView: 1,
       spaceBetween: 20,
+      slidesPerGroup: 1,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      slidesPerGroup: 1,
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 20,
+      slidesPerGroup: 2,
     },
     1024: {
       slidesPerView: 2,
