@@ -241,7 +241,7 @@ footer ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 60vw;
   margin: 0rem auto;
   padding-top: 20rem;
 }
@@ -529,6 +529,33 @@ footer ul li a {
     margin-left: 0rem;
     width: 80vw;
   }
+
+  .mainn {
+    background-image: url("../images/kakaohntrgrn.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .mainn .wusstest {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10rem;
+  }
+  .mainn .wusstest div {
+    font-family: "Arial Rounded MT Bold";
+    color: #5a2701;
+    padding: 10rem;
+  }
+  .mainn .wusstest h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .mainn .wusstest p {
+    color: black;
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 558px) {
   footer h1 {
@@ -560,6 +587,33 @@ footer ul li a {
 
   .img5 {
     margin-bottom: 20rem;
+  }
+
+  .mainn {
+    background-image: url("../images/kakaohntrgrn.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .mainn .wusstest {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10rem;
+  }
+  .mainn .wusstest div {
+    font-family: "Arial Rounded MT Bold";
+    color: #5a2701;
+    padding: 10rem;
+  }
+  .mainn .wusstest h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .mainn .wusstest p {
+    color: black;
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 488px) {
@@ -597,7 +651,7 @@ footer ul li a {
   .down {
     background-color: #ff8401;
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     border-radius: 0 0 3.5rem 3.5rem;
     position: absolute;
     top: 23px;
@@ -634,6 +688,24 @@ footer ul li a {
   .nav ul li a {
     font-size: 1.7rem;
   }
+  .nav .texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 21.2rem 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .nav .texte h1 {
+    color: #5a2701;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .nav .texte p {
+    font-size: 2.5rem;
+    width: 60%;
+  }
 
   .section-boxes {
     display: grid;
@@ -656,6 +728,83 @@ footer ul li a {
     width: 15vw;
     font-size: 5vw;
   }
+
+  .impressum {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10rem;
+  }
+  .impressum div {
+    margin: 4rem 0;
+  }
+  .impressum div img {
+    position: relative;
+    left: 44%;
+    transform: translateX(-50%);
+    margin-bottom: 5rem;
+    width: 70%;
+  }
+  .impressum div p:not(:last-child) {
+    padding-bottom: 4rem;
+    width: 80%;
+    font-size: 6vw;
+  }
+  .impressum div h1 {
+    color: #5a2701;
+    text-align: center;
+    font-size: 9vw;
+  }
+  .impressum div h2 {
+    color: #ff8401;
+    padding-bottom: 7vw;
+  }
+
+  .foot {
+    width: 110vw;
+  }
+
+  .Konakt {
+    width: 90%;
+    margin: 0 auto 5rem;
+    padding: 15rem 0;
+  }
+  .Konakt img {
+    width: 60vw;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .Konakt p {
+    padding-top: 5rem;
+    font-size: 5vw;
+  }
+
+  .mainn {
+    background-image: url("../images/kakaohntrgrn.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .mainn .wusstest {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10rem;
+  }
+  .mainn .wusstest div {
+    font-family: "Arial Rounded MT Bold";
+    color: #5a2701;
+    padding: 10rem;
+  }
+  .mainn .wusstest h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .mainn .wusstest p {
+    color: black;
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 469px) {
   .scroll {
@@ -668,6 +817,20 @@ footer ul li a {
 
   .img3 {
     width: 289px !important;
+  }
+
+  .insp {
+    width: 80%;
+    padding: 17rem 0;
+  }
+  .insp div:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+  .insp div h1 {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    color: #ff8401;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (max-width: 469px) {
@@ -698,5 +861,81 @@ footer ul li a {
 
   .img3 {
     width: 177px !important;
+  }
+
+  .mainn {
+    background-image: none;
+  }
+  .mainn .wusstest {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 100%;
+    margin: 0;
+    padding-top: 10rem;
+  }
+  .mainn .wusstest div {
+    font-family: "Arial Rounded MT Bold";
+    color: #5a2701;
+    padding: 10rem 5rem 10rem 1rem;
+  }
+  .mainn .wusstest h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 7vw;
+  }
+  .mainn .wusstest p {
+    color: black;
+    font-size: 1.8rem;
+  }
+
+  .nav {
+    height: 40px;
+    min-width: 200px;
+    width: 100%;
+  }
+  .nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: 8rem;
+  }
+  .nav ul .logo {
+    padding: 0;
+    z-index: 0;
+    width: 250px;
+    display: none;
+  }
+  .nav ul li {
+    animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    list-style-type: none;
+    padding: 2rem 4rem;
+    min-width: fit-content;
+    z-index: 1000;
+  }
+  .nav ul li a {
+    font-size: 5vw;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes top-down {
+  0% {
+    transform: translateY(-10px);
+    height: 0rem;
+  }
+  100% {
+    transform: translateY(0);
+    height: 30rem;
+    opacity: 1;
   }
 }/*# sourceMappingURL=style.css.map */
