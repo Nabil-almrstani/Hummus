@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const links = document.querySelectorAll('.nav-links li');
 const down = document.querySelector(".down")
+const spar = document.querySelector(".spar")
 
 
 hamburger.addEventListener('click', () => {
@@ -10,6 +11,7 @@ hamburger.addEventListener('click', () => {
   for(i = 0 ; i < links.length; i++){
     links[i].classList.toggle("hidden")
   }
+  spar.classList.toggle("hidden")
   
 })
 
